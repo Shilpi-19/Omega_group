@@ -1,0 +1,110 @@
+/* General styling */
+.app-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    padding: 14px 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  nav ul li:hover {
+    background-color: #575757;
+  }
+  
+  /* Home page background image */
+  .home-background {
+    background-image: url('C:\Users\Dell\Downloads\public\public\learning.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* CourseList styling */
+  .course-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-list li {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .course-list button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-list button:hover {
+    background-color: #218838;
+  }
+  
+  /* UserDetailForm styling */
+  .user-detail-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .user-detail-form form div {
+    margin-bottom: 10px;
+  }
+  
+  .user-detail-form form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .user-detail-form form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .user-detail-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-detail-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* CourseDetail styling */
+  .course-detail {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* EnrolledUsers styling */
+  .enrolled-users ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .enrolled-users li {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+  
